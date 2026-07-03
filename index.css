@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #333;
+    line-height: 1.5;
+}
+.hero-section{
+    background-color: rgb(243, 234, 243);
+    padding: 60px 0;
+}
+.principal{
+    text-align: center;
+    padding: 40px 0;
+}
+.book-a-table{
+    border-radius: 20px;
+}
+.watch-video{
+    color: #555;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.header{
+    color: red;
+    text-align: center;
+}
+.section{
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 12px;
+}
+.section-numero{
+    color: red;
+    font-weight: 700;
+}
+button{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    padding: 6px 12px;
+    margin: 2px;
+}
+.row-tabela{
+    background-color: thistle;
+}
+.tabela{
+    border: 1px solid #fff;
+    margin: 25px;
+    background-color: white;
+    padding: 20px;
+}
+.stats-section{
+    background-image: url('mesas/stats-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 0;
+}
+.stats-section .border{
+    background: rgba(0,0,0,0.35);
+    border-radius: 6px;
+}
+.border{
+    border: transparent;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 50px;
+    margin: 5px;
+    color: white;
+}
+.titulo-cardapio{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.titulo{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.hero-img{
+    max-width: 420px;
+    border-radius: 8px;
+}
+.hero-text{max-width:620px}
+.hero-img-wrap{flex:0 0 auto}
+.img-col{padding-right:0}
+.img-col .hero-img{max-width:520px;width:100%;height:auto;display:block}
+@media (min-width:1200px){
+    .img-col{padding-right:0}
+    .hero-section{padding-right:0}
+    .hero-img{max-width:640px}
+}
+.menu-card img{
+    max-width: 220px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.menu-card h1{
+    font-size: 18px;
+    margin-top: 12px;
+}
+/* Testimonials */
+.carousel-item p{font-size:16px;margin-bottom:6px}
+.carousel-item img{object-fit:cover}
+
+/* Events overlay */
+.events-section .card{overflow:hidden}
+.events-section .card-img{height:260px;object-fit:cover;filter:brightness(0.7)}
+.events-section .card-title{color:#fff}
+.events-section .card-text{color:#fff}
+
+/* Chefs */
+.menu-card img{max-width:220px;border-radius:8px}
+.menu-card h5{margin-top:12px}
+
+/* Gallery */
+.gallery img{width:100%;height:160px;object-fit:cover}
+
+footer{font-size:14px}
+
+@media (max-width: 767.98px){
+    .titulo{font-size: 28px;text-align:center}
+    .hero-section .col-md-6{ text-align:center }
+    .hero-img{ max-width: 260px; margin: 20px auto 0 }
+    .border{ padding: 25px; font-size: 20px }
+}
+
+@media (max-width: 576px){
+    .gallery img{height:110px}
+}
